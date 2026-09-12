@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 32 32" role="img" aria-label="Fleet Terminal">
+  <!-- The Fleet mark: an amber block (the terminal cursor) on near-black.
+       Geometry and colours match src/components/Logo.astro on fleet-terminal.app,
+       themselves sampled from the 1024px AppIcon.png. Pure shapes, no <text> —
+       GitHub sanitises README SVGs and renders type in whatever face the viewer
+       has, so anything with a typeface in it has to be a PNG instead. -->
+  <rect width="32" height="32" rx="6.5" fill="#0f121a"/>
+  <rect x="11.33" y="7.56" width="9.34" height="16.83" rx="1.1" fill="#f8b42d"/>
+</svg>

@@ -1,18 +1,27 @@
-# Fleet Terminal
+<p align="center">
+  <img src=".github/assets/mark.svg" width="76" alt="">
+</p>
 
-**A native macOS terminal for running many AI coding agents at once.** One
-sidebar row per session with live status — working, your turn, needs permission,
-question, MCP call in flight, PR opened — so you always know which one needs
-you. `⌘⇧J` jumps to the next one that does.
+<h1 align="center">Fleet Terminal</h1>
 
-Works with **Claude Code**, **Codex** and **Antigravity**.
+<p align="center">
+  <b>A native macOS terminal for running many AI coding agents at once.</b><br>
+  One sidebar row per session with live status — so you always know which one needs you.
+</p>
 
-### [⬇ Download for macOS](https://fleet-terminal.app/download)
+<p align="center">
+  <a href="https://fleet-terminal.app/download"><img src=".github/assets/download.png" width="271" alt="Download for macOS"></a>
+</p>
 
-macOS 14 or later · Apple silicon & Intel · notarized by Apple · free, no
-account, no API key
+<p align="center">
+  <sub>macOS 14 or later · Apple silicon &amp; Intel · notarized by Apple · free, no account, no API key</sub>
+</p>
 
-<br>
+<p align="center">
+  Works with <b>Claude Code</b>, <b>Codex</b> and <b>Antigravity</b>.
+</p>
+
+---
 
 > **About this repository.** Fleet is closed source, so there's no code here.
 > This is the front desk: file a bug, ask whether something works, see what
@@ -21,16 +30,18 @@ account, no API key
 
 ## What it does
 
-- **One row per session**, with a live status indicator and colour, so a glance
-  tells you which of your agents is blocked on you.
-- **Plain-English activity** under each working session — "wiring auth
+- **One row per session**, with a live status indicator and colour — working,
+  your turn, needs permission, question, MCP call in flight, PR opened — so a
+  glance tells you which of your agents is blocked on you. `⌘⇧J` jumps to the
+  next one that is.
+- **Plain-English activity** under every working session: "wiring auth
   middleware", not "Running…".
-- **Attention routing** — menu-bar extra and Dock badge count what needs you
+- **Attention routing** — a menu-bar extra and Dock badge count what needs you
   even when Fleet isn't focused, with Approve and Deny on the notification
   itself.
 - **Hover preview** to peek at a session's recent conversation without leaving
   the one you're in.
-- **Groups, colours and launch profiles** for the many-worktrees workflow.
+- **Groups, colours and launch profiles**, for the many-worktrees workflow.
 - **Search every session's scrollback at once** with `⌘⇧F`.
 - **Quick Terminal** (`` ⌃` ``) — a scratch shell in a drawer, for the command
   an agent asked you to run yourself.
@@ -74,4 +85,6 @@ transcripts, which is why there's no API key and nothing to configure.
 
 ---
 
-Built in Fleet, by [Oliver Richman](https://github.com/oliver-richman).
+<p align="center">
+  <sub>Built in Fleet, by <a href="https://github.com/oliver-richman">Oliver Richman</a>.</sub>
+</p>
