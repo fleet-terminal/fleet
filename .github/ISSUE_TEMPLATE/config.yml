@@ -1,0 +1,14 @@
+# Blank issues stay on deliberately. Fleet is new and every signal is worth
+# having — someone with a report that fits neither template should not bounce
+# off a form.
+blank_issues_enabled: true
+contact_links:
+  - name: Discord
+    url: https://fleet-terminal.app/discord
+    about: Chat, install help, and release announcements.
+  - name: Documentation
+    url: https://fleet-terminal.app/docs/getting-started/
+    about: Setup, shortcuts, settings and troubleshooting.
+  - name: Email
+    url: mailto:help@fleet-terminal.app
+    about: For anything you'd rather not file in public.

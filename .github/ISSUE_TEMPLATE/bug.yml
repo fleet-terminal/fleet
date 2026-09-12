@@ -1,0 +1,72 @@
+name: Bug report
+description: Something in Fleet doesn't work, or works wrongly.
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time. Fleet is closed source, so a report here is
+        the only way a problem reaches me — and every one gets an answer.
+
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened
+      description: What you did, and what Fleet did instead of what you expected.
+      placeholder: |
+        I had four Claude Code sessions open. One finished its turn but the row
+        kept spinning instead of going amber.
+    validations:
+      required: true
+
+  - type: input
+    id: fleet-version
+    attributes:
+      label: Fleet version
+      description: Fleet ▸ About Fleet, or the Settings window title.
+      placeholder: "1.0.1"
+    validations:
+      required: true
+
+  - type: input
+    id: macos
+    attributes:
+      label: macOS version
+      placeholder: "15.2, Apple silicon"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: agent
+    attributes:
+      label: Which agent was in the session
+      multiple: true
+      options:
+        - Claude Code
+        - Codex
+        - Antigravity
+        - A plain shell, no agent
+        - Not agent-specific
+    validations:
+      required: true
+
+  - type: textarea
+    id: repro
+    attributes:
+      label: Steps to reproduce
+      description: If you can make it happen again, the steps are the single most useful thing here.
+      placeholder: |
+        1. Open two sessions in the same repo
+        2. …
+    validations:
+      required: false
+
+  - type: textarea
+    id: extra
+    attributes:
+      label: Anything else
+      description: >
+        Screenshots or a screen recording help a lot for anything visual.
+        Please don't paste terminal output you'd rather not share — redact freely.
+    validations:
+      required: false

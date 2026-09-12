@@ -1,0 +1,40 @@
+name: Feature request or compatibility
+description: Ask for something, or ask whether Fleet works with a tool you use.
+labels: ["request"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Both kinds of ask belong here — "could Fleet do X" and "does Fleet work
+        with X". If it's a question rather than a request,
+        [Discussions](../../discussions) is fine too; I read both.
+
+  - type: textarea
+    id: ask
+    attributes:
+      label: What would you like
+      description: >
+        Describe the problem you're trying to solve rather than the feature you
+        think solves it — there's often a shorter route, and I'd rather find it.
+      placeholder: |
+        I keep several worktrees per repo and I lose track of which session is on
+        which branch when they're collapsed into a group.
+    validations:
+      required: true
+
+  - type: input
+    id: tool
+    attributes:
+      label: Tool or agent involved
+      description: If this is about compatibility, name it and the version.
+      placeholder: "fish 3.7, Starship prompt"
+    validations:
+      required: false
+
+  - type: textarea
+    id: workaround
+    attributes:
+      label: What you do today
+      description: How you work around it now, if you do.
+    validations:
+      required: false
