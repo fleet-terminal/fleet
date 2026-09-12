@@ -5,6 +5,10 @@
 <h1 align="center">Fleet Terminal</h1>
 
 <p align="center">
+  <a href="https://fleet-terminal.app"><b>fleet-terminal.app</b></a>
+</p>
+
+<p align="center">
   <b>A native macOS terminal for running many AI coding agents at once.</b><br>
   One sidebar row per session with live status — so you always know which one needs you.
 </p>
