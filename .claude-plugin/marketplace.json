@@ -1,0 +1,18 @@
+{
+  "name": "fleet-terminal",
+  "description": "The plugin Fleet Terminal installs into Claude Code: live status for every session you have running, and tools to open and drive them.",
+  "owner": {
+    "name": "Fleet Terminal",
+    "url": "https://fleet-terminal.app"
+  },
+  "plugins": [
+    {
+      "name": "fleet",
+      "source": "./plugin",
+      "version": "1.1.1",
+      "description": "Live session status for Claude Code inside Fleet Terminal, and the tools to drive Fleet from a session: open sessions, read the ones already running, manage groups and profiles.",
+      "homepage": "https://fleet-terminal.app",
+      "keywords": ["fleet", "terminal", "macos", "sessions", "status", "mcp"]
+    }
+  ]
+}

@@ -61,6 +61,23 @@ directly, with no process-ancestry guessing. It watches the state directory with
 FSEvents rather than polling, and reads status out of the agents' own
 transcripts, which is why there's no API key and nothing to configure.
 
+## The Claude Code plugin
+
+The part of Fleet that lives inside Claude Code is in this repo, and you can
+install it from inside Claude Code:
+
+```
+/plugin marketplace add fleet-terminal/fleet
+/plugin install fleet@fleet-terminal
+```
+
+It carries the status hooks, an MCP server that gives a session the tools to
+open and drive other sessions, a skill and two commands — the same copy Fleet
+installs for you, so if you already run Fleet you have it. It does need the
+app: the hooks write the status files Fleet reads, and the server talks to a
+running Fleet over a socket in its config directory. The code is in
+[`plugin/`](plugin/).
+
 ## Privacy
 
 - No account, no sign-in, no API key.
